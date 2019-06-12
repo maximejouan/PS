@@ -1,1 +1,1 @@
-install-windowsfeature -configurationfilepath DeploymentConfigTemplate.xml
+Install-WindowsFeature -name Telnet-Client
