@@ -1,0 +1,1 @@
+install-windowsfeature -configurationfilepath DeploymentConfigTemplate.xml
