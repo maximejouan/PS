@@ -1,4 +1,3 @@
-
 $domain = "max.local"
 $password = "Keepcool33!" | ConvertTo-SecureString -asPlainText -Force
 $username = "$domain\admincis" 
