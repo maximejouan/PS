@@ -1,3 +1,4 @@
+mkdir c:\temp\
 echo "policy" > C:\TEMP\log.txt
 $domainnetbios = "max"
 echo "max" >> C:\TEMP\log.txt
