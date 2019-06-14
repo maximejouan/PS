@@ -1,8 +1,14 @@
 set-executionpolicy -executionpolicy unrestricted -force
 echo "test" >> C:\TEMP\log.txt
 $domainnetbios = "max"
+echo "max" >> C:\TEMP\log.txt
 $domainFQDN = "max.local"
+echo "max.local" >> C:\TEMP\log.txt
 $password = "Keepcool33!" | ConvertTo-SecureString -asPlainText -Force
-$username = "$domainnetbios\admincis" 
+echo "password" >> C:\TEMP\log.txt
+$username = "$domainnetbios\admincis"
+echo "username" >> C:\TEMP\log.txt
 $credential = New-Object System.Management.Automation.PSCredential($username,$password)
-Add-Computer -DomainName $domainFQDN -Credential $credential -restart >> C:\TEMP\log.txt
+echo "cred" >> C:\TEMP\log.txt
+Add-Computer -DomainName $domainFQDN -Credential $credential -restart
+echo "JOINAD" >> C:\TEMP\log.txt
