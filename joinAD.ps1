@@ -1,3 +1,4 @@
+echo "test" >> C:\TEMP\log.txt
 $domainnetbios = "max"
 $domainFQDFN = "max.local"
 $password = "Keepcool33!" | ConvertTo-SecureString -asPlainText -Force
