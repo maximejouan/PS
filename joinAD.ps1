@@ -5,4 +5,4 @@ $domainFQDN = "max.local"
 $password = "Keepcool33!" | ConvertTo-SecureString -asPlainText -Force
 $username = "$domainnetbios\admincis" 
 $credential = New-Object System.Management.Automation.PSCredential($username,$password)
-Add-Computer -DomainName $domainFQDN -Credential $credential >> C:\TEMP\log.txt -restart
+Add-Computer -DomainName $domainFQDN -Credential $credential -restart >> C:\TEMP\log.txt
