@@ -1,5 +1,4 @@
-set-executionpolicy -executionpolicy unrestricted -force
-echo "polixy" > C:\TEMP\log.txt
+echo "policy" > C:\TEMP\log.txt
 $domainnetbios = "max"
 echo "max" >> C:\TEMP\log.txt
 $domainFQDN = "max.local"
