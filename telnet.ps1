@@ -1,2 +1,2 @@
 Install-WindowsFeature -name Telnet-Client
-.\IIS.ps1
+#.\IIS.ps1
